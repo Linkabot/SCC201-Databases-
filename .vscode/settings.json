@@ -1,0 +1,15 @@
+{
+    "java.project.resourceFilters": [
+        "node_modules",
+        ".git"
+    ],
+    "java.test.config": {
+        "workingDirectory": "${fileDirname}"
+    },
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "csvjdbc-1.0.35.jar",
+        "sqlite-jdbc-3.7.2.jar",
+        "junit-platform-console-standalone-1.8.2.jar"
+    ]
+}
